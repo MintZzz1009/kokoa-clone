@@ -12,8 +12,18 @@
 /* Screen */
 @import "screen/welcome.css";
 @import "screen/login.css";
+@import "screen/friends.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
+}
+
+p {
+  display: block;
+  z-index: -3;
+  padding: 20px;
+}
+#first-p {
+  padding-top: 200px;
 }

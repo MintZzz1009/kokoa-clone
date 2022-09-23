@@ -1,15 +1,17 @@
-
 .status-bar {
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 5px;
+  padding: 7px;
   box-sizing: border-box;
+  background-color: white;
+  font-size: 13px;
+  font-weight: bolder;
 }
 
-.status-bar__column { 
+.status-bar__column {
   width: 33%;
 }
 
@@ -28,6 +30,6 @@
   align-items: center;
 }
 
-.status-bar__column .fa-battery-full{
+.status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
