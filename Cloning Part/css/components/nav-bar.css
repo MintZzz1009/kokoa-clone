@@ -1,7 +1,10 @@
 .nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #F9F9FA;
-  border: 1px 0px rgba(0, 0, 0, 0.2);
-  padding: 16px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 21px 0px;
   
 }
 
@@ -12,5 +15,33 @@
 }
 
 .nav__link {
-  color: black;
+  color: #2F363E;
+  position: relative;
+
+}
+
+.nav__notification-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-size: small;
+  font-weight: 600;
+  position: absolute;
+  left: 17px;
+  top: -7px;
+}
+
+.nav__notification-void {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 22px;
+  top: -3px;
 }
