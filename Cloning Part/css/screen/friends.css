@@ -1,20 +1,22 @@
 .friends-display-link {
   background-color: #fafafa;
   position: absolute;
-  top: 92px;
+  top: 90px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px 0px;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
 .friends-display-link span {
-  margin: 0px 5px;
+  margin: 0px 10px 0px 5px;
 }
 
 .friends-display-link i {
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.15);
 }
