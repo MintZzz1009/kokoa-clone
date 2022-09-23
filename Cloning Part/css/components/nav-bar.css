@@ -1,11 +1,10 @@
 .nav {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
-  background-color: #F9F9FA;
+  background-color: #f9f9fa;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 21px 0px;
-  
 }
 
 .nav__list {
@@ -15,9 +14,8 @@
 }
 
 .nav__link {
-  color: #2F363E;
+  color: #2f363e;
   position: relative;
-
 }
 
 .nav__notification-number {
