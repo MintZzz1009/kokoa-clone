@@ -20,3 +20,28 @@
 .friends-display-link i {
   color: rgba(0, 0, 0, 0.15);
 }
+
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+
+.list {
+  margin: 10px 0px;
+}
+
+.dividers {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 15px 0px;
+}
+
+.list__header {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__data {
+  padding: 15px 0px;
+}
