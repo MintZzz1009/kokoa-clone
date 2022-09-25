@@ -40,8 +40,5 @@
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
-}
-
-.list__data {
-  padding: 15px 0px;
+  align-items: center;
 }
