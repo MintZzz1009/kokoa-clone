@@ -1,5 +1,6 @@
 .user-component {
   display: flex;
+  justify-content: space-between;
   box-sizing: border-box;
   padding: 0px;
   margin: 10px 0px;
@@ -7,6 +8,11 @@
 
 .user-component__column:first-child {
   display: flex;
+}
+
+.user-component__column:last-child {
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .user-component__text {
