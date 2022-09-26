@@ -21,7 +21,8 @@
   color: rgba(0, 0, 0, 0.15);
 }
 
-.friends-screen {
+.friends-screen,
+.chats-screen {
   padding: 0 var(--horizontal-space);
 }
 
