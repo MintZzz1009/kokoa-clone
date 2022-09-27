@@ -18,7 +18,7 @@
 }
 
 .friends-display-link i {
-  color: rgba(0, 0, 0, 0.15);
+  color: var(--horizontal-line-color);
 }
 
 .list {
@@ -26,7 +26,7 @@
 }
 
 .list__dividers {
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid var(--horizontal-line-color);
   padding: 15px 0px;
 }
 

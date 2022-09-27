@@ -23,13 +23,3 @@
   left: 17px;
   top: -7px;
 }
-
-.nav__notification-void {
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  position: absolute;
-  left: 22px;
-  top: -3px;
-}

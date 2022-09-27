@@ -10,3 +10,18 @@
   font-size: small;
   font-weight: 600;
 }
+
+.badge-void {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 22px;
+  top: -3px;
+}
+
+.dot-with-cog {
+  left: 463px;
+  top: 20px;
+}

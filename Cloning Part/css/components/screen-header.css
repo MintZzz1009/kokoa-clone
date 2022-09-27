@@ -16,7 +16,9 @@
 }
 
 .screen-header__icons {
-  width: 30%;
   display: flex;
   justify-content: space-between;
+}
+.screen-header__icons span {
+  margin-left: 20px;
 }
