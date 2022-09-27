@@ -61,3 +61,13 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.user-component__subtitle i {
+  color: tomato;
+  margin: 5px;
+}
+
+.user-component__icon {
+  font-size: 50px;
+  padding: 10px 0;
+}
