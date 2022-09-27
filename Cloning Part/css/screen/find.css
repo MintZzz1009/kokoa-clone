@@ -29,7 +29,6 @@
 
 .find__section {
   box-sizing: border-box;
-  height: 250px;
   padding: 20px 0;
   border-bottom: 1px solid var(--horizontal-line-color);
 }
@@ -48,8 +47,13 @@
   color: var(--font-light-color);
   font-weight: bold;
   text-align: center;
-  height: 183px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+#empty {
+  display: block;
+  height: 183px;
+  line-height: 183px;
 }
