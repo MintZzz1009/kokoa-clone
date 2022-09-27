@@ -65,16 +65,3 @@
   color: rgba(0, 0, 0, 0.2);
   text-align: right;
 }
-
-.chat__notification-number {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background-color: tomato;
-  color: white;
-  font-size: small;
-  font-weight: 600;
-}
