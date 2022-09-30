@@ -17,8 +17,8 @@
   height: 5px;
   border-radius: 50%;
   position: absolute;
-  left: 22px;
-  top: -3px;
+  right: 30px;
+  top: 10px;
 }
 
 .dot-with-cog {

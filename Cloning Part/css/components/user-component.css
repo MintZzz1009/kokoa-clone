@@ -5,6 +5,11 @@
   padding: 7.5px 0px;
 }
 
+.user-component__more {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
 .user-component:hover {
   background-color: rgba(195, 195, 195, 0.2);
 }
