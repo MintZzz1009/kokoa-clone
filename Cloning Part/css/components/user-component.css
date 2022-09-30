@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 0px;
-  margin: 15px 0px;
+  padding: 7.5px 0px;
 }
 
 .user-component:hover {

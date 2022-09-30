@@ -1,36 +1,7 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-  height: 130px;
-  padding: 10px 10px;
-  border-bottom: 1px solid var(--horizontal-line-color);
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 80px;
-}
-
-.find-icons__icon i {
-  font-size: 30px;
-  margin: 20px 0;
-}
-
-.find-icons__icon span {
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: -7px;
-}
-
 .find__section {
   box-sizing: border-box;
   padding: 20px 0;
-  border-bottom: 1px solid var(--horizontal-line-color);
+  border-top: 1px solid var(--horizontal-line-color);
 }
 
 .find__section__header {
