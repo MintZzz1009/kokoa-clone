@@ -1,0 +1,13 @@
+.alt-screen-header {
+  position: fixed;
+  top: 22px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px var(--horizontal-space);
+  font-size: 23px;
+  font-weight: 700;
+  border: 1px solid black;
+  background-color: aquamarine;
+}

@@ -1,0 +1,5 @@
+.settings-screen__section {
+  padding: 25px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: teal;
+}

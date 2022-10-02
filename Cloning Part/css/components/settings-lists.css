@@ -1,0 +1,14 @@
+.settings-screen__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.settings-screen__lists-column {
+  display: flex;
+}
+
+.settings-screen__lists-column h4 {
+  margin: 0px 10px 0px 20px;
+}
