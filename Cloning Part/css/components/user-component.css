@@ -92,7 +92,6 @@
 .user-component:not(.user-component__text):hover {
   border: 3px solid teal;
   transition: all 0.3s ease-out;
-  opacity: 0.3;
 }
 
 .user-component:hover .user-component__text {
