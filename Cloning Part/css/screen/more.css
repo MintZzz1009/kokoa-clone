@@ -1,3 +1,4 @@
 .more__section__header {
-  color: black;
+  color: var(--font-light-color);
+  font-weight: bold;
 }

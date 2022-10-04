@@ -20,14 +20,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  width: 70px;
   height: 50px;
-  border-radius: 20px;
+  border-radius: 30px;
   position: relative;
+}
+
+.nav__link:hover {
+  background-color: rgb(130, 218, 218);
+  font-size: 23px;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav__notification-number {
   position: absolute;
-  right: 27px;
-  top: 6px;
+  right: 13px;
+  top: 5px;
 }

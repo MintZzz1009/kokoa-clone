@@ -26,12 +26,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
-  background: linear-gradient(
-    to left,
-    rgb(227, 247, 255),
-    rgb(200, 239, 255),
-    rgb(227, 247, 255)
-  );
+  background: linear-gradient(to right, rgb(227, 247, 255), rgb(71, 188, 250));
 }
 
 .main-screen {
