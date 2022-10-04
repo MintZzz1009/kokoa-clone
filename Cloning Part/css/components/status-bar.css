@@ -9,6 +9,9 @@
   background-color: white;
   font-size: 13px;
   font-weight: bolder;
+  background-color: black;
+  color: white;
+  z-index: 3;
 }
 
 .status-bar__column {
