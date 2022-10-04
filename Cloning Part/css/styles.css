@@ -26,6 +26,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
+  background: linear-gradient(
+    to left,
+    rgb(227, 247, 255),
+    rgb(200, 239, 255),
+    rgb(227, 247, 255)
+  );
 }
 
 .main-screen {
@@ -40,9 +46,9 @@ p {
 }
 
 #void1 {
-  height: 95px;
+  height: 110px;
 }
 
 #void2 {
-  height: 45px;
+  height: 80px;
 }
