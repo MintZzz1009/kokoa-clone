@@ -2,7 +2,7 @@
 @import "variables.css";
 
 /* Font */
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Mitr:wght@200;300;400;500;600;700&family=Open+Sans:wght@400;600;700&family=Permanent+Marker&family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fredoka+One&family=Kalam:wght@300;400;700&family=Mitr:wght@200;300;400;500;600;700&family=Open+Sans:wght@400;600;700&family=Permanent+Marker&family=Rubik+Dirt&display=swap");
 
 /* Components */
 @import "components/status-bar.css";
@@ -13,6 +13,7 @@
 @import "components/badge.css";
 @import "components/openchat-component.css";
 @import "components/icons-row.css";
+@import "components/icons-animation.css";
 @import "components/settings-lists.css";
 
 /* Screen */
@@ -26,7 +27,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
-  background: linear-gradient(to right, rgb(227, 247, 255), rgb(71, 188, 250));
+  background-color: black;
+
+  /* linear-gradient(to right, rgb(197, 245, 255), rgb(255, 255, 184)); */
 }
 
 .main-screen {
@@ -46,4 +49,52 @@ p {
 
 #void2 {
   height: 80px;
+}
+
+@keyframes glittering {
+  0% {
+    background: linear-gradient(
+      45deg,
+      black,
+      indigo,
+      rebeccapurple,
+      rgb(150, 102, 198),
+      rgb(196, 162, 229),
+      rgb(238, 221, 255)
+    );
+  }
+  50% {
+    background: linear-gradient(
+      45deg,
+      black,
+      indigo,
+      rebeccapurple,
+      rgb(150, 102, 198),
+      rgb(196, 162, 229),
+      rgb(238, 221, 255),
+      rgb(238, 221, 255),
+      rgb(196, 162, 229),
+      rgb(150, 102, 198),
+      rebeccapurple,
+      indigo,
+      black
+    );
+  }
+  100% {
+    background: linear-gradient(
+      45deg,
+      rgb(238, 221, 255),
+      rgb(196, 162, 229),
+      rgb(150, 102, 198),
+      rebeccapurple,
+      indigo,
+      black
+    );
+  }
+}
+
+@keyframes twinkle-twinkle {
+}
+
+@keyframes bubble-bubble {
 }
