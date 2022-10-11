@@ -63,3 +63,24 @@
   display: flex;
   flex-direction: column;
 }
+
+.find__icons {
+  border-radius: 10px;
+  border-right: 5px solid var(--font-light-color);
+  border-bottom: 5px solid var(--font-light-color);
+  background-color: indigo;
+  text-shadow: 2px 2px 3px rgb(38, 255, 0), 3px 3px 5px rgb(0, 251, 255);
+  transition: all 0.2s ease-in-out;
+}
+
+.find__icons i {
+  padding: 10px 0px;
+}
+
+.find__icons:hover {
+  border-left: 5px solid var(--font-light-color);
+  border-top: 5px solid var(--font-light-color);
+  border-right: none;
+  border-bottom: none;
+  transform: scale(1) translate(3px, 3px);
+}

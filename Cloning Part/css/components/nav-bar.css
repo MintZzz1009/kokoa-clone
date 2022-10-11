@@ -61,7 +61,7 @@
   50% {
     border-radius: 50px;
     background-color: rgb(255, 190, 190);
-    transform: translateY(-30px);
+    transform: scale(1.5) translateY(-30px);
   }
   100% {
   }

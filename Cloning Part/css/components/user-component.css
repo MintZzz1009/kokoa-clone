@@ -136,11 +136,11 @@
   opacity: 0;
   z-index: 1;
   border-radius: 20px;
+  transition: all 0.5s ease-in;
 }
 
 .user-component__text__hover:hover {
   opacity: 1;
-  transition: all 0.3s ease-in;
 }
 
 @keyframes lighter {
