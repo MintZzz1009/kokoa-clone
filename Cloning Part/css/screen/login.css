@@ -1,4 +1,3 @@
-
 #login-form {
   display: flex;
   flex-direction: column;
@@ -7,44 +6,55 @@
 }
 
 #login-form input {
+  box-sizing: border-box;
   width: 100%;
-  padding: 23px 0px;
+  padding: 20px 5px;
+  margin: 5px 0px;
   border: none;
   font-size: 17px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  color: var(--font-light-color);
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 3px solid var(--font-light-color);
   transition: border-color 0.3s ease-in-out;
+  animation: lighter 0.8s ease-in-out 1;
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--font-light-color);
 }
 
-#login-form input:not([type="submit"]):focus{
-  border-color: var(--yellow);
+#login-form input:not([type="submit"]):focus {
+  border-color: blueviolet;
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  z-index: -3;
+  position: relative;
+  background-color: indigo;
   margin-top: 35px;
   padding: 17px 0px;
   border-radius: 5px;
   border: none;
-  transition: background-color 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
+  overflow: hidden;
 }
 
-#login-form input[type="submit"]:focus {
-  background-color: tomato;
+#login-form input[type="submit"]:hover {
+  background-color: violet;
 }
 
 #login-form input[value="Sign Up"] {
-  margin-top: 15px;
-  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 2px;
+  background-color: var(--font-light-color);
+  color: black;
+  cursor: not-allowed;
 }
 
 #login-form a {
+  color: var(--font-light-color);
   text-decoration: none;
-  color: inherit;
   padding-top: 25px;
   font-size: 14px;
+  animation: lighter 0.8s ease-in-out 1;
 }

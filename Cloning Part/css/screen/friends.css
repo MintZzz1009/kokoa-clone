@@ -34,7 +34,7 @@
 
 .list__header {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--font-light-color);
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;

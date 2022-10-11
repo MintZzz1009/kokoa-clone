@@ -6,7 +6,13 @@
   margin: 2.5px 0px;
   border-radius: 20px;
   position: relative;
-  color: white;
+  color: #777;
+  background: linear-gradient(rgba(146, 217, 217, 0), rgba(255, 221, 221, 0));
+  border: 0px solid rgba(0, 128, 128, 0);
+  border-right-color: rgba(255, 0, 0, 0);
+  border-bottom-color: rgba(255, 0, 0, 0);
+  transition: all 0.3s ease-in-out;
+  animation: lighter 0.8s ease-in-out 1;
 }
 
 .user-component:hover {
@@ -17,7 +23,6 @@
   border: 5px solid teal;
   border-right-color: red;
   border-bottom-color: red;
-  transition: all 0.3s ease-in-out;
 }
 
 .user-component__more {
@@ -136,4 +141,15 @@
 .user-component__text__hover:hover {
   opacity: 1;
   transition: all 0.3s ease-in;
+}
+
+@keyframes lighter {
+  0% {
+  }
+  50% {
+    color: white;
+    border-color: white;
+  }
+  100% {
+  }
 }

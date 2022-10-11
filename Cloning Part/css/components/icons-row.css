@@ -6,8 +6,26 @@
   color: white;
 }
 
+.icons-row a {
+  text-shadow: 2px 2px 5px magenta, 4px 4px 5px pink;
+  transition: all 0.3s ease-in-out;
+}
+
+.icons-row a:hover {
+  color: aquamarine;
+  transform: scale(1.2);
+}
+
 .icons-row__last-row {
   margin-bottom: 10px;
+}
+
+.icons-row__last-row a {
+  transition: all 0.3s ease-in-out;
+}
+.icons-row:last-child a:hover {
+  color: rgb(255, 0, 212);
+  transform: scale(1.2);
 }
 
 .icons-row__icon {
@@ -17,14 +35,14 @@
   width: 80px;
   padding: 5px;
   border-radius: 20px;
-  border: 1px solid tomato;
 }
 
 .btn-icon {
   width: 90px;
-  height: 120px;
+  height: 100px;
   justify-self: center;
   align-items: center;
+  text-shadow: 2px 2px 5px yellow, 4px 4px 5px aqua;
 }
 
 .icons-row__icon i {
@@ -37,10 +55,7 @@
   width: 70px;
   height: 70px;
   padding: 0;
-  border: 1px solid tomato;
   border-radius: 15px;
-  margin-bottom: 15px;
-  background-color: var(--yellow);
   line-height: 70px;
 }
 

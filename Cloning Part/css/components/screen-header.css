@@ -17,6 +17,9 @@
 }
 
 .screen-header__title {
+  padding: 0 5px;
+  border-radius: 10px;
+  background-color: rgb(0, 100, 100);
   font-size: 30px;
   font-weight: 700;
 }
@@ -24,7 +27,13 @@
 .screen-header__icons {
   display: flex;
   justify-content: space-between;
+  border-radius: 10px;
+  background-color: rgb(0, 100, 100);
 }
 .screen-header__icons span {
-  margin-left: 20px;
+  padding: 10px;
+}
+
+.screen-header__icons a {
+  padding: 10px 0px;
 }

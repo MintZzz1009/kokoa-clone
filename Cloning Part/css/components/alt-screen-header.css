@@ -1,19 +1,30 @@
 .alt-screen-header {
   position: fixed;
-  top: 22px;
+  top: 24px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 20px var(--horizontal-space);
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 700;
-  border: 1px solid black;
   background-color: rgb(0, 170, 170);
   color: white;
   font-family: "Bungee Spice", cursive;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   border-bottom: 5px solid rgb(0, 100, 100);
+}
+
+.alt-screen-header__column {
+  padding: 0px 5px;
+  background-color: rgb(0, 100, 100);
+  border-radius: 10px;
+}
+
+.alt-screen-header__column span {
+  font-size: 25px;
+  line-height: 34px;
+  text-align: center;
 }
