@@ -3,7 +3,7 @@
   justify-content: space-between;
   box-sizing: border-box;
   padding: 5px 5px;
-  margin: 2.5px 0px;
+  margin: 10px 0px;
   border-radius: 20px;
   position: relative;
   color: #777;
@@ -124,12 +124,12 @@
     white
   );
   box-sizing: border-box;
-  width: 100%;
+  width: 95%;
   height: 70px;
   position: absolute;
   text-align: center;
   line-height: 70px;
-  margin: 2.5px 5px;
+  margin: 10px 5px;
   font-family: "Bungee Spice", cursive;
   font-style: oblique;
   font-size: 35px;
