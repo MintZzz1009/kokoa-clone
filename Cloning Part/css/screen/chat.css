@@ -1,0 +1,19 @@
+.chatting-screen {
+  display: flex;
+  justify-content: center;
+  padding: 70px 20px;
+}
+
+.chat__time-stamp {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 210px;
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.chat__time-stamp i {
+  margin-right: 10px;
+}

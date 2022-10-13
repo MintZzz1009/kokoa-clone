@@ -21,12 +21,23 @@
   padding: 0px 5px;
   background-color: rgb(0, 100, 100);
   border-radius: 10px;
+  font-size: 35px;
+}
+
+#sup-center {
+  margin-right: 38px;
 }
 
 .alt-screen-header__column span {
+  display: flex;
+  align-items: center;
   font-size: 25px;
   line-height: 34px;
   text-align: center;
+}
+
+.alt-screen-header__column span a {
+  padding: 2px 5px;
 }
 
 .alt-screen-header__column:last-child:hover {
