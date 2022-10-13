@@ -1,0 +1,44 @@
+@import "library-header.css";
+@import "library-search-bar.css";
+
+@import "sec-bookday.css";
+@import "sec-adventure.css";
+@import "sec-author.css";
+
+:root {
+  --font-light: rgba(102, 102, 102, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+main {
+  height: max-content;
+  background-color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+main {
+  padding: 180px 25px;
+}
+
+section {
+  padding-top: 22px;
+}
+
+section > h2 {
+  font-size: 28px;
+}
+
+.contents {
+  display: flex;
+  background-color: white;
+  padding-top: 20px;
+}
