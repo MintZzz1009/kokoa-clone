@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fredoka+One&family=Kalam:wght@300;400;700&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&family=Permanent+Marker&family=Rubik+Dirt&display=swap");
+
+@import "playlist-header.css";
+@import "music-component.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.playlist-screen__now__buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.playlist-screen__now__buttons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border: 3px solid black;
+  border-bottom-width: 7px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.playlist-screen__now__buttons div:first-child {
+  width: 210px;
+  font-size: 25px;
+  font-weight: 800;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.playlist-screen__now__buttons div i {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.playlist-screen__list ul {
+  list-style: none;
+}
+
+.playlist-screen__list li {
+  padding: 30px 0;
+}
