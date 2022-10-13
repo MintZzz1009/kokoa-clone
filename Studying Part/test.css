@@ -8,6 +8,7 @@ main {
   font-size: 20px;
   padding: 10px;
   margin-left: 30px;
+  margin-bottom: 50px;
   background-color: dodgerblue;
   border-radius: 15px;
   color: mintcream;
@@ -25,4 +26,31 @@ main {
   border-top: 20px solid transparent;
   border-left: 20px solid dodgerblue;
   transform: rotateZ(0deg) skew(30deg, 0deg);
+}
+
+#bubble2 {
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  background-color: dodgerblue;
+  border-radius: 15px;
+  color: mintcream;
+}
+
+#bubble2::before {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -6px;
+  z-index: -1;
+  content: "";
+  width: 15px;
+  height: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: dodgerblue;
+  transform: skewX(20deg);
 }
