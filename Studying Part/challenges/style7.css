@@ -127,6 +127,10 @@ main {
   border-radius: 20px;
 }
 
+.music-component:hover {
+  box-shadow: 0px 5px 10px #222;
+}
+
 .music-component:nth-child(4) {
   box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.5);
 }
@@ -154,8 +158,12 @@ main {
   z-index: 2;
 }
 
+.music-component:hover {
+  box-shadow: 0px 5px 10px #222;
+}
+
 .music-component:hover .music-component__column:first-child::before {
-  opacity: 0;
+  opacity: 1;
 }
 
 .music-component__column:last-child {
@@ -195,7 +203,7 @@ main {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  width: 360px;
+  width: 90%;
   height: 80px;
   background-color: #222;
   color: white;
@@ -300,9 +308,10 @@ main {
 }
 
 .time-bar__bar {
-  width: 50%;
+  width: 0%;
   height: 4px;
   background-color: black;
+  animation: time-bar 254s linear 0.5s 1;
 }
 
 .time-bar__pointer {
@@ -339,4 +348,13 @@ main {
   border-radius: 50%;
   background-color: #222;
   box-shadow: 0px 5px 12px black;
+}
+
+@keyframes time-bar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
