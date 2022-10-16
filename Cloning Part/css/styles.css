@@ -28,7 +28,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
-  overflow: hidden;
+
   background-color: black;
   animation: twinkle-twinkle 0.8s ease-in-out 1;
 
@@ -38,6 +38,7 @@ body {
 .main-screen {
   padding: 0 var(--horizontal-space);
   height: 1000vh;
+  overflow: hidden;
 }
 
 #void1 {

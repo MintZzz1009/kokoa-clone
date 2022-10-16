@@ -1,9 +1,27 @@
-#background {
-  height: 800px;
-  background-image: url(https://cdn.25gramos.com/wp-content/uploads/sites/7/2021/04/fred-perry-gorillaz-fleek-1.jpg);
+.chat-body {
+  height: 800px;  
   background-position: center 80px; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  background-color: black;
+}
+
+
+
+#murdoc {
+  background-image: url(https://cdn.25gramos.com/wp-content/uploads/sites/7/2021/04/fred-perry-gorillaz-fleek-3.jpg);
+}
+
+#hobbs {
+  background-image: url(https://cdn.25gramos.com/wp-content/uploads/sites/7/2021/04/fred-perry-gorillaz-fleek-4.jpg);
+}
+
+#2d {
+  background-image: url(https://cdn.25gramos.com/wp-content/uploads/sites/7/2021/04/fred-perry-gorillaz-fleek-2.jpg);
+}
+
+#noodle {
+  background-image: url(https://cdn.25gramos.com/wp-content/uploads/sites/7/2021/04/fred-perry-gorillaz-fleek-1.jpg);
 }
 
 .chatting-screen {

@@ -6,23 +6,25 @@
   margin: 10px 0px;
   border-radius: 20px;
   position: relative;
-  color: #777;
   background: linear-gradient(rgba(146, 217, 217, 0), rgba(255, 221, 221, 0));
   border: 0px solid rgba(0, 128, 128, 0);
   border-right-color: rgba(255, 0, 0, 0);
   border-bottom-color: rgba(255, 0, 0, 0);
   transition: all 0.3s ease-in-out;
-  animation: lighter 0.8s ease-in-out 1;
 }
 
 .user-component:hover {
   background: linear-gradient(rgb(146, 217, 217), rgb(255, 221, 221));
   font-family: "Kalam", cursive;
-  font-weight: 700;
-  color: tomato;
+
+  color: magenta;
   border: 5px solid teal;
   border-right-color: red;
   border-bottom-color: red;
+}
+
+.user-component:hover .user-component__title {
+  font-size: 30px;
 }
 
 .user-component__more {
@@ -71,6 +73,8 @@
 .user-component__title {
   font-size: 20px;
   font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
+  animation: lighter 0.8s ease-in-out;
 }
 
 .user-component__subtitle {
@@ -88,20 +92,31 @@
 }
 
 .user-component__icon {
+  color: white;
   font-size: 50px;
   padding: 10px 0;
+  text-shadow: 3px 3px 3px tomato, -3px -3px 3px teal;
 }
 
-.radish {
-  background-image: url(https://media.istockphoto.com/photos/red-gingham-tablecloth-on-white-vintage-background-with-copyspace-picture-id1302764044?k=20&m=1302764044&s=612x612&w=0&h=efLeVPuV28RnuQcRdB-Ly29RBwwrGc6SrzzIl8tlLL4=);
+.user-component:hover .user-component__icon {
+  animation: jumpjump 1s ease-in-out infinite;
 }
 
-.avocado {
-  background-image: url(https://media.istockphoto.com/photos/rustic-white-wood-table-background-with-blue-tablecloth-picture-id898946070?k=20&m=898946070&s=612x612&w=0&h=lX-jyUzyVPv8YH3b11TGfYmM-RvZM2hxBI8WutgffqI=);
+.noodle {
+  background-image: url(https://pbs.twimg.com/media/FKHwKbsVcAk0tBF?format=jpg&name=large);
 }
 
-.tomato {
-  background-image: url(https://media.istockphoto.com/photos/glass-of-clean-water-with-mint-on-a-table-covered-picture-id468526174?k=20&m=468526174&s=612x612&w=0&h=DWGBBZk-qzrM4ZHiYrxJ6k4MmkSCvGWykFRDaJ49FCM=);
+.murdoc {
+  background-image: url(https://pbs.twimg.com/media/FKH2gWoWYAs6rsd?format=jpg&name=900x900);
+  background-size: contain;
+}
+
+.two-d {
+  background-image: url(https://pbs.twimg.com/media/FKH2NRMXoAU-NwT?format=jpg&name=900x900);
+}
+
+.russel {
+  background-image: url(https://pbs.twimg.com/media/FKH2ZhSWUAQoTwa?format=jpg&name=large);
 }
 
 .user-component__box {
@@ -145,11 +160,27 @@
 
 @keyframes lighter {
   0% {
-  }
-  50% {
-    color: white;
-    border-color: white;
+    color: black;
   }
   100% {
+    color: white;
+  }
+}
+
+@keyframes jumpjump {
+  0% {
+    transform: rotateZ(0) scaleY(0.7);
+  }
+  25% {
+    transform: rotateZ(-20deg) translateY(-30px) scaleY(1.2);
+  }
+  50% {
+    transform: rotateZ(0) translateY(0px) scaleY(0.7);
+  }
+  75% {
+    transform: rotateZ(20deg) translateY(-30px) scaleY(1.2);
+  }
+  100% {
+    transform: rotateZ(0) scaleY(0.7);
   }
 }

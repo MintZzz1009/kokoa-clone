@@ -1,26 +1,46 @@
 .friends-display-link {
-  background-color: white; /*rgb(255, 238, 235);*/
+  position: relative;
+  height: 100px;
+  margin: 130px 5px 10px;
+  background-color: black;
   border-radius: 15px;
-  border: 5px solid tomato; /*rgb(255, 126, 103);*/
-  position: absolute;
-  top: 110px;
-  left: 32px;
+  border: 5px solid tomato;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 60px;
   font-size: 20px;
-  font-weight: bolder;
-  color: black;
+  color: white;
   z-index: 0;
+  overflow: hidden;
+}
+
+.friends-display-link__img {
+  display: flex;
+}
+.friends-display-link img {
+  width: 50%;
+  background-color: ghostwhite;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 70px;
+}
+
+.friends-display-link img:first-child {
+  margin-top: 50px;
 }
 
 .friends-display-link span {
-  margin: 0px 10px;
-}
-
-.friends-display-link i {
-  color: black;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: max-content;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .list {
