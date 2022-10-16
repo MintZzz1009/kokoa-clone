@@ -12,7 +12,7 @@
   margin: 5px 0px;
   border: none;
   font-size: 17px;
-  color: var(--font-light-color);
+  color: white;
   background-color: rgba(0, 0, 0, 0);
   border-bottom: 3px solid var(--font-light-color);
   transition: border-color 0.3s ease-in-out;
@@ -28,20 +28,19 @@
 }
 
 #login-form input[type="submit"] {
-  z-index: -3;
   position: relative;
-  background-color: indigo;
+  color: black;
   margin-top: 35px;
   padding: 17px 0px;
   border-radius: 5px;
   border: none;
+  background-color: indigo;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
-  overflow: hidden;
 }
 
 #login-form input[type="submit"]:hover {
-  background-color: violet;
+  background-color: magenta;
 }
 
 #login-form input[value="Sign Up"] {
