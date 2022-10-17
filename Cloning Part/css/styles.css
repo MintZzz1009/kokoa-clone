@@ -15,6 +15,8 @@
 @import "components/icons-row.css";
 @import "components/icons-animation.css";
 @import "components/settings-lists.css";
+@import "components/splash-screen.css";
+@import "components/no-mobile.css";
 
 /* Screen */
 @import "screen/welcome.css";
@@ -27,17 +29,14 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
-
+  height: 120vh;
   background-color: black;
-  animation: twinkle-twinkle 0.8s ease-in-out 1;
-
-  /* linear-gradient(to right, rgb(197, 245, 255), rgb(255, 255, 184)); */
+  animation: twinkle-twinkle 0.8s ease-in-out 1 2s;
 }
 
 .main-screen {
   padding: 0 var(--horizontal-space);
-  height: 1000vh;
+  height: 120vh;
   overflow: hidden;
 }
 
@@ -60,7 +59,7 @@ body {
   height: 100%;
   transform: skewX(-40deg);
   background-color: rgba(150, 156, 156, 0.6);
-  animation: pass 0.8s ease-in-out 1;
+  animation: pass 0.8s ease-in-out 1 2s;
 }
 
 @keyframes pass {

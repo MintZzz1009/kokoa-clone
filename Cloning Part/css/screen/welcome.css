@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: lighter 0.8s ease-in-out 1;
+  animation: lighter 0.8s ease-in-out 2s forwards;
 }
 
 .welcome-header__title {

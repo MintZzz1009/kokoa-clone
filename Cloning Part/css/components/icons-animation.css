@@ -4,22 +4,9 @@
   transition: transform 0.5s ease-in-out;
 }
 
-
 .fa-heart {
   color: deeppink;
   animation: flip-twinkle 1s linear infinite;
-}
-
-.fa-right-from-bracket {
-
-}
-
-.fa-chevron-left {
-
-}
-
-.fa-file-lines {
-
 }
 
 @keyframes flip-twinkle {
@@ -42,15 +29,5 @@
   100% {
     transform: scale(1) rotateY(360deg);
     color: deeppink;
-  }
-}
-
-@keyframes rotate {
-  from {
-    transform: rotateZ(0);
-  }
-  to {
-    transform: rotateZ(360deg);
-    }
   }
 }

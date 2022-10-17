@@ -3,7 +3,7 @@
   justify-content: space-between;
   height: 95px;
   margin-bottom: 25px;
-  animation: lighter 0.8s ease-in-out forwards;
+  animation: lighter 0.8s ease-in-out 2s forwards;
 }
 
 .openchat-component__column {
@@ -31,6 +31,7 @@
 }
 
 .openchat-component__tags {
+  width: 100%;
   padding: 2px 0;
   font-size: 15px;
   white-space: nowrap;
