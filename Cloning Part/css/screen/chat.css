@@ -137,6 +137,14 @@
   border-right-color: blueviolet;
 }
 
+.ch-2d .message-row__message-bubble {
+  background-color: dodgerblue;
+  color: white;
+}
+.ch-2d .message-row__message-bubble::before {
+  border-right-color: dodgerblue;
+}
+
 .ch-hobbs .message-row__message-bubble {
   background-color: saddlebrown;
   color: white;

@@ -65,12 +65,14 @@
 }
 
 .find__icons {
-  border-radius: 10px;
-  border-right: 5px solid var(--font-light-color);
-  border-bottom: 5px solid var(--font-light-color);
-  background-color: indigo;
+  box-sizing: content-box;
   text-shadow: 2px 2px 3px rgb(38, 255, 0), 3px 3px 5px rgb(0, 251, 255);
-  transition: all 0.2s step-start;
+  border-radius: 10px;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 2px 5px rgb(255, 255, 255);
+  background-color: rgba(112, 22, 177, 0.8);
+
+  transition: all 0s step-start;
 }
 
 .find__icons i {
@@ -78,9 +80,10 @@
 }
 
 .find__icons:hover {
-  border-left: 5px solid var(--font-light-color);
-  border-top: 5px solid var(--font-light-color);
-  border-right: none;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
   border-bottom: none;
+  box-shadow: inset 0px 0px 5px white;
+  background-color: rgba(76, 0, 130, 0.7);
   transform: scale(1) translate(3px, 3px);
 }
