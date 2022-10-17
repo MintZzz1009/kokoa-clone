@@ -47,8 +47,6 @@
   margin-right: 10px;
 }
 
-/*◀◄◥◣🌱*/
-
 .message-row {
   display: flex;
 }
@@ -129,4 +127,74 @@
 }
 .ch-noodle .message-row__message-bubble::before {
   border-right-color: magenta;
+}
+
+.write-message {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 15px;
+  border: 5px solid rgba(102, 102, 102, 0.7);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: black;
+}
+.write-message > span i {
+  font-size: 40px;
+  color: red;
+  margin-right: 15px;
+}
+
+.write-message__text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 2px 5px;
+  border: 2px solid red;
+  border-radius: 30px;
+  background-color: black;
+}
+
+.write-message__input {
+  width: 80%;
+  height: 40px;
+  margin-left: 5px;
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.write-message__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  font-size: 30px;
+  color: red;
+  margin-left: 5px;
+}
+
+.write-message__icons span {
+  text-align: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.write-message__icons span:last-child {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.write-message__icons span i {
+  line-height: 38px;
 }

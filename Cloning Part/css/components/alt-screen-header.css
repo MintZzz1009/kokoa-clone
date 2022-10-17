@@ -12,8 +12,8 @@
   background-color: rgb(0, 170, 170);
   color: white;
   font-family: "Bungee Spice", cursive;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   border-bottom: 5px solid rgb(0, 100, 100);
 }
 
