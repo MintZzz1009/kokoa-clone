@@ -1,14 +1,14 @@
 .alt-screen-header {
-  position: fixed;
-  top: 24px;
-  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 26px;
+  box-sizing: border-box;
+  z-index: 2;
   width: 100%;
-  padding: 20px var(--horizontal-space);
-  font-size: 30px;
-  font-weight: 700;
+  padding: 10px 20px;
+  font-size: 25px;
   background-color: rgb(0, 170, 170);
   color: white;
   font-family: "Bungee Spice", cursive;
@@ -18,26 +18,31 @@
 }
 
 .alt-screen-header__column {
-  padding: 0px 5px;
+  display: flex;
+  align-items: center;
   background-color: rgb(0, 100, 100);
   border-radius: 10px;
-  font-size: 35px;
+}
+
+.alt-screen-header__column h1 {
+  padding: 5px 5px;
 }
 
 #sup-center {
-  margin-right: 38px;
+  margin-right: 46px;
 }
 
 .alt-screen-header__column span {
   display: flex;
   align-items: center;
-  font-size: 25px;
-  line-height: 34px;
-  text-align: center;
 }
 
 .alt-screen-header__column span a {
-  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+  line-height: 34px;
+  text-align: center;
+  padding: 5px 7px;
 }
 
 .alt-screen-header__column:last-child:hover {

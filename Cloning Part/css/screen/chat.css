@@ -1,12 +1,12 @@
 .chat-body {
-  height: 800px;  
-  background-position: center 80px; /* Center the image */
+  height: 850px;
+  background-position: center 55px; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   background-color: black;
+  background-attachment: fixed;
+  font-family: "Kalam", cursive;
 }
-
-
 
 #murdoc {
   background-image: url(https://cdn.25gramos.com/wp-content/uploads/sites/7/2021/04/fred-perry-gorillaz-fleek-3.jpg);
@@ -16,7 +16,7 @@
   background-image: url(https://cdn.25gramos.com/wp-content/uploads/sites/7/2021/04/fred-perry-gorillaz-fleek-4.jpg);
 }
 
-#2d {
+#two-d {
   background-image: url(https://cdn.25gramos.com/wp-content/uploads/sites/7/2021/04/fred-perry-gorillaz-fleek-2.jpg);
 }
 
@@ -40,7 +40,7 @@
   padding: 10px 20px;
   margin-bottom: 50px;
   border-radius: 210px;
-  background-color: rgba(51, 51, 51, 0.5);
+  background-color: rgba(51, 51, 51, 0.7);
 }
 
 .chat__time-stamp i {
@@ -57,10 +57,76 @@
   width: 50px;
   height: 50px;
   border-radius: 15px;
+  margin-right: 10px;
 }
 
-.message-row__content {
-
+.message-row__author {
+  font-weight: bold;
 }
 
-.message-row__message
+.message-row__message {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.message-row__message-bubble {
+  position: relative;
+  width: fit-content;
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+}
+
+.message-row__message .message-row__message-bubble::before {
+  display: block;
+  position: absolute;
+  top: 2px;
+  z-index: -1;
+}
+
+.ch-others .message-row__message-bubble::before {
+  left: -3px;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 20px solid transparent;
+  border-left: 20px solid #333;
+  transform: rotateZ(-20deg) skew(10deg, 10deg);
+}
+
+.message-row__message-time {
+  align-self: flex-end;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  margin: 0 5px;
+}
+
+.ch-yours .message-row__message-bubble {
+  background-color: gold;
+  color: black;
+}
+
+.ch-yours {
+  flex-direction: row-reverse;
+}
+
+.ch-yours .message-row__message-bubble::before {
+  right: -3px;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 20px solid transparent;
+  border-right: 20px solid gold;
+  transform: rotateZ(20deg) skew(-10deg, -10deg);
+}
+
+.ch-noodle .message-row__message-bubble {
+  background-color: magenta;
+  color: white;
+}
+.ch-noodle .message-row__message-bubble::before {
+  border-right-color: magenta;
+}

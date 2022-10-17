@@ -3,6 +3,7 @@
   justify-content: space-between;
   height: 95px;
   margin-bottom: 25px;
+  animation: lighter 0.8s ease-in-out forwards;
 }
 
 .openchat-component__column {
@@ -26,7 +27,6 @@
 
 .openchat-component__title {
   font-size: 20px;
-  color: white;
   padding: 3px 0;
 }
 
